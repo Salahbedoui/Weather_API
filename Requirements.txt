@@ -1,6 +1,7 @@
-streamlit==1.45.1
+--extra-index-url https://download.pytorch.org/whl/cpu
 transformers==4.51.3
-torch==2.7.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.7.0
 sentencepiece
 tokenizers==0.21.1
-protobuf==3.20.3  # Specific version to avoid conflicts
+protobuf==3.20.3
+gTTS==2.3.2
