@@ -1,6 +1,6 @@
 streamlit==1.45.1
 transformers==4.51.3
 torch==2.7.0 --index-url https://download.pytorch.org/whl/cpu
-sentencepiece  # Required for tokenizers
-pandas
-numpy
+sentencepiece
+tokenizers==0.21.1
+protobuf==3.20.3  # Specific version to avoid conflicts
