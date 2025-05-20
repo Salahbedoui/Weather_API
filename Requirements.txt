@@ -1,5 +1,6 @@
 absl-py==2.2.2
 aext-assistant-server==4.1.0
+streamlit
 aext-assistant==4.1.0
 aext-core-server==4.1.0
 aext-core==4.1.0
